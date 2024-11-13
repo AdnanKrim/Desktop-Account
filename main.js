@@ -19,7 +19,9 @@ app.on('ready', () => {
   if (process.platform === 'darwin') {
     var template = [{
       label: 'FromScratch',
-      submenu: [{
+      submenu: [
+        
+        {
         label: 'Quit',
         accelerator: 'CmdOrCtrl+Q',
         click: function() { app.quit(); }
@@ -66,7 +68,7 @@ let server
   if (process.platform === 'win32') {
 
 server = new PHPServer({
-    php: `${__dirname}/php/php.exe`,
+    php: `${__dirname}/xampp/php/php.exe`,
     port: 5555,
     directory: __dirname,
     directives: {
@@ -97,18 +99,23 @@ function createWindow () {
 
   server.run();
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow
+  
+  ({width: 1080,
+    height: 800,
+    icon: path.join(__dirname, 'Qalaat Al Khaleej.ico')
+  })
 
   // and load the index.html of the app.
   mainWindow.loadURL('http://'+server.host+':'+server.port+'/')
 
-/*
-mainWindow.loadURL(url.format({
-  pathname: path.join(__dirname, 'index.php'),
-  protocol: 'file:',
-  slashes: true
-}))
-*/
+
+// mainWindow.loadURL(url.format({
+//   pathname: path.join(__dirname, 'index.php'),
+//   protocol: 'file:',
+//   slashes: true
+// }))
+
  const {shell} = require('electron')
  shell.showItemInFolder('fullPath')
 

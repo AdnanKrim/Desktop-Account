@@ -1,0 +1,58 @@
+5:13:17 PM  [main] 	Initializing Control Panel
+5:13:17 PM  [main] 	Windows Version:  Enterprise  64-bit
+5:13:17 PM  [main] 	XAMPP Version: 8.0.28
+5:13:17 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+5:13:17 PM  [main] 	You are not running with administrator rights! This will work for
+5:13:17 PM  [main] 	most application stuff but whenever you do something with services
+5:13:17 PM  [main] 	there will be a security dialogue or things will break! So think 
+5:13:17 PM  [main] 	about running this application with administrator rights!
+5:13:17 PM  [main] 	XAMPP Installation Directory: "e:\desktop app\electron-4-php\xampp\"
+5:13:17 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+5:13:17 PM  [main] 	Checking for prerequisites
+5:13:17 PM  [main] 	All prerequisites found
+5:13:17 PM  [main] 	Initializing Modules
+5:13:17 PM  [main] 	The FileZilla module is disabled
+5:13:17 PM  [main] 	The Mercury module is disabled
+5:13:17 PM  [main] 	Starting Check-Timer
+5:13:17 PM  [main] 	Control Panel Ready
+5:13:19 PM  [Apache] 	Attempting to start Apache app...
+5:13:19 PM  [Apache] 	Status change detected: running
+6:14:00 PM  [main] 	Deinitializing Modules
+6:14:00 PM  [main] 	Deinitializing Control Panel
+
+5:09:25 PM  [main] 	Initializing Control Panel
+5:09:25 PM  [main] 	Windows Version:  Enterprise  64-bit
+5:09:25 PM  [main] 	XAMPP Version: 8.0.28
+5:09:25 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+5:09:25 PM  [main] 	You are not running with administrator rights! This will work for
+5:09:25 PM  [main] 	most application stuff but whenever you do something with services
+5:09:25 PM  [main] 	there will be a security dialogue or things will break! So think 
+5:09:25 PM  [main] 	about running this application with administrator rights!
+5:09:25 PM  [main] 	XAMPP Installation Directory: "e:\desktop app\electron-4-php\xampp\"
+5:09:25 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+5:09:25 PM  [main] 	Checking for prerequisites
+5:09:25 PM  [main] 	All prerequisites found
+5:09:25 PM  [main] 	Initializing Modules
+5:09:25 PM  [Apache] 	Problem detected!
+5:09:25 PM  [Apache] 	Port 80 in use by "C:\xampp\apache\bin\httpd.exe" with PID 22728!
+5:09:25 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:09:25 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:09:25 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:09:25 PM  [Apache] 	Problem detected!
+5:09:25 PM  [Apache] 	Port 443 in use by "C:\xampp\apache\bin\httpd.exe" with PID 22728!
+5:09:25 PM  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:09:25 PM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:09:25 PM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:09:25 PM  [main] 	The FileZilla module is disabled
+5:09:25 PM  [main] 	The Mercury module is disabled
+5:09:25 PM  [main] 	Starting Check-Timer
+5:09:25 PM  [main] 	Control Panel Ready
+5:09:44 PM  [Apache] 	Attempting to start Apache app...
+5:09:44 PM  [Apache] 	Status change detected: running
+5:12:56 PM  [Apache] 	Attempting to stop Apache (PID: 21620)
+5:12:56 PM  [Apache] 	Attempting to stop Apache (PID: 20136)
+5:12:56 PM  [Apache] 	Status change detected: stopped
+5:13:19 PM  [Apache] 	Status change detected: running
+6:14:00 PM  [main] 	Deinitializing Modules
+6:14:00 PM  [main] 	Deinitializing Control Panel
+
